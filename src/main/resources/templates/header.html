@@ -13,7 +13,9 @@
     <link th:href="@{style/app.css}"
             rel="stylesheet" />
 
-        <div><img class="banniere" ; th:src="@{/img/moviesermoi.jpg}" alt="bannière"></div>
+        <div class="banniere" >
+            <img style="width : 50% ; margin-left: 50%;" ; th:src="@{/img/moviesermoi.jpg}" alt="bannière">
+        </div>
 
         <div th:insert="navbar :: navbar"></div>
 </header>
