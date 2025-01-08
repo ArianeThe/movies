@@ -114,6 +114,13 @@
 
 .columnC { 
     padding: 20px; 
-    box-sizing: border-box; /* Pour inclure le padding et la bordure dans la largeur totale */ }
-
-    
+    box-sizing: border-box; /* Pour inclure le padding et la bordure dans la largeur totale */ 
+    flex: 1;
+    max-width: calc(50% - 20px); /* Optionnel : Pourcentage moins l'espacement (gap) */
+}
+.image-container { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; /* Centre verticalement si l'image est plus petite que le conteneur */ 
+    width: 100%; /* Optionnel : Pour s'assurer que l'image prend toute la largeur disponible */
+}

@@ -8,7 +8,6 @@
       
       <div th:insert="header::header"> test </div>
 <div>
-    Barbie
 
     Boutchou
 
@@ -16,6 +15,32 @@
 
     Barbaque
 </div>
+
+       <!-- Barbie-->
+       <div class="containerC">
+        <div class="columnC">
+            <div class="image-container">
+                <img class="affiche" th:src="@{/img/affiches/barbie.jpg}" alt="affiche">
+            </div>
+        </div>
+    
+        <div class="columnC">
+            <h3>Barbie</h3>
+            <p>
+                Barbie, qui vit à Barbie Land, est expulsée du pays pour être loin d'être une poupée à l'apparence parfaite; 
+                n'ayant nulle part où aller, elle part pour le monde humain et cherche le vrai bonheur
+            </p>
+        </div>
+        <div class="columnC">
+            <h3>Mon avis</h3>
+            <p>
+                Le film est plsu complexe que ce que veut bien en dire le synopsis.
+                Entre la place des femmes dans la société, celle de l'homme, comment chacun se perçoit en tant qu'être humain.
+                Le tout porté par Margot Robbie avec brio. 
+                Le monde de Barbie est beaucoup plus complexe qu'une simple histoire de talon aiguille.
+            </p>
+        </div>
+    </div>
 
         <div th:insert="footer :: footer"></div>
     </body>
